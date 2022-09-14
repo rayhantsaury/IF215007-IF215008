@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boking Lapang Futsal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Form Boking</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">DP</label>
+                        <input type="text" class="form-control" id="dp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Tanggal Boking</label>
+                        <input type="date" class="form-control" id="tanggal">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                </form>
+            </div>
+            <div class="col">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">No.</th>
+                            <th scope="col">Nama </th>
+                            <th scope="col">DP</th>
+                            <th scope="col">Tanggal Boking</th>
+                        </tr>
+                    </thead>
+                    <tbody id="daftar-boking">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+    <script>
+        function tampilkanData() {
+            const dataTersimpan = localStorage.getItem("dataTersimpan");
+            var dataTersimpanObjectArray = JSON.parse(dataTersimpan);
+            if(dataTersimpanObjectArray === null) {
+                dataTersimpanObjectArray = [];
+            }
+
+            const daftarBoking = document.getElementById("daftar-boking");
+
+            let isiDaftarBoking = ``;
+
+            dataTersimpanObjectArray.forEach(function(dataTersimpanObject, index) {
+                isiDaftarBoking += `
+                <tr>
+                            <th scope="row">${index + 1}</th>
+                            <td>${dataTersimpanObject.nama}</td>
+                            <td>${dataTersimpanObject.dp}</td>
+                            <td>${dataTersimpanObject.jam}</td>
+                        </tr>
+                `;
+            });
+
+            daftarBoking.innerHTML = isiDaftarBoking;
+
+        }
+
+        tampilkanData();
+
+        var inputNama = document.getElementById("nama");
+        var inputDP = document.getElementById("dp");
+        var inputTanggal = document.getElementById("tanggal");
+        var inputButton = document.getElementById("submit");
+
+        inputButton.onclick = function(perwakilanEvent) {
+            const nama = inputNama.value;
+            const dp = inputDP.value;
+            const jam = inputJam.value;
+            const pesan = `Data dari ${nama} dengan harga Rp.${dp} sebanyak ${tanggal}pcs, telah dikirim!`;
+            const data = {
+                nama,
+                dp,
+                tanggal,
+            };
+
+            console.log(data);
+
+            const dataTersimpan = localStorage.getItem("dataTersimpan");
+            const dataTersimpanObjectArray = JSON.parse(dataTersimpan)
+
+            if(dataTersimpan === null) {
+                localStorage.setItem("dataTersimpan", JSON.stringify([data]));
+            } else {
+                dataTersimpanObjectArray.push(data);
+                localStorage.setItem("dataTersimpan", JSON.stringify(dataTersimpanObjectArray));
+            }
+
+            tampilkanData();
+        };
+
+    </script>
+</body>
+</html>
