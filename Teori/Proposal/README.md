@@ -1,19 +1,25 @@
 # AYO MENABUNG
 
 ## Permasalahan
-- kurangnya minat menabung para siswa di sekolah karena mereka lebih suka membelanjakan uangnya, dari pada menabung.
+- kurangnya minat menabung para mahasiswa karena mereka lebih suka menggunakan uangnya untuk hal-hal yang mereka sukai, dari pada ditabungkan.
 
 ## Solusi Permasalahan
-- Bikin aplikasi yang bisa membuat para siswa tertarik untuk menabung dan juga mempermudah mereka untuk menabung.
+- Membuat aplikasi yang bisa membuat para mahasiswa tertarik untuk menabung dan juga mempermudah mereka untuk menabung.
 
 # Use Case
-- siswa dapat melakukan pendaftaran terlebih dahulu
-- Siswa mengkakses aplikasi dengan cara login terlebih dahulu
-- Siswa bisa melihat catatan tabungan mereka di aplikasi ini
+- mahasiswa dapat melakukan pendaftaran terlebih dahulu
+- mahasiswa mengkakses aplikasi dengan cara login terlebih dahulu
+- mahasiswa dapat mulai menabung 
+- mahasiswa bisa melihat catatan tabungan mereka di aplikasi ini
 - Admin mengupdate data keuangan siswa
 
 
 ## Struktur Data
+
+### admin
+id|username|password
+---|---|---
+1 | admin | nabungoke1
 
 ### User
 id|username|password
