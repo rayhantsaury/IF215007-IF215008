@@ -2,5 +2,4 @@
 
 ## IF215007-IF215008
 
-### Rayhan Tsaury
-### 1207050102
+### Rayhan Tsaury - 1207050102
