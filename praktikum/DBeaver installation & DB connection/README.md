@@ -12,7 +12,7 @@ Mendukung basis data apa pun yang memiliki driver JDBC (yang pada dasarnya berar
   <a href="https://dbeaver.io/product/dbeaver-ss-classic-new.png"><img src="https://dbeaver.io/product/dbeaver-ss-classic-new.png" width="500"/></a>
   ![image](https://user-images.githubusercontent.com/86096057/209499377-92d0c86e-5407-41d1-acaa-fd0f2a93ff0b.png)
 
-  ## Download
+## Download
 
 Anda dapat mengunduh binari bawaan dari <a href="https://dbeaver.io/download" target="_blank">official website</a> atau langsung dari <a href="https://github.com/dbeaver/dbeaver/releases">GitHub releases</a>.  
 anda bisa download <a href="https://dbeaver.io/files/ea" target="_blank">Early Access</a> version. We publish it 1-2 times per week.  
