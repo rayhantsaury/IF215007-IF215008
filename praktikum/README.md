@@ -20,7 +20,7 @@
             <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/Git-Installation">Git installation</a></td><td>1 :heavy_check_mark:</td>
         </tr>
         <tr>
-            <td>Demo : <a href="">Github project initialization</td><td>1 </td>
+            <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/Git-Project-Init">Github project initialization</td><td>1 :heavy_check_mark:</td>
         </tr>
         <tr>
             <td>Demo : <a href="">Hoppscotch / Postman access</td><td>1 </td>
