@@ -29,7 +29,7 @@
             <td>Demo : <a href="">PHP & Composer installation & hello world</td><td>2 </td>
         </tr>
         <tr>
-            <td>Demo : <a href="">PostgreSQL / MySQL installation</td><td>2 </td>
+            <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/PostgreSQL">PostgreSQL / MySQL installation</td><td>2 :heavy_check_mark:</td>
         </tr>        
         <tr>
             <td>Demo : <a href="">DBeaver installation & DB connection</td><td>2 </td>
