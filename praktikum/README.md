@@ -66,7 +66,7 @@
             <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/Browser%20API">Browser API - Event Handling, Local Storage, Element manipulation</td><td>5 :heavy_check_mark: </td>
         </tr>
         <tr>
-            <td>Demo : <a href="">HTTP GET & POST using Form Action and Fetch API</td><td>5 </td>
+            <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/HTTP%20GET%20&%20POST%20using%20Form%20Action%20and%20Fetch%20API">HTTP GET & POST using Form Action and Fetch API</td><td>5  :heavy_check_mark: </td>
         </tr>    
         <tr>
             <td>Demo : <a href="">PHP DB - Dynamic Web Page</td><td>5 </td>
