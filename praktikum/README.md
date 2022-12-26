@@ -50,7 +50,7 @@
             <td>Demo : <a href="">Cpanel operation</td><td>4</td>
         </tr>
         <tr>
-            <td>Demo : <a href="https://github.com/ramabhagadhara/karyawan">Domain registration</td><td>1 :heavy_check_mark:</td>
+            <td>Demo : <a href="">Domain registration</td><td>1 :heavy_check_mark:</td>
         </tr>
         <tr>
             <td rowspan=9>CLO-0212</td>
@@ -63,7 +63,7 @@
             <td>Demo : <a href="">Javascript Data Transformation</td><td>4 :heavy_check_mark:</td>
         </tr>
         <tr>
-            <td>Demo : <a href="">Browser API - Event Handling, Local Storage, Element manipulation</td><td>5 :heavy_check_mark:</td>
+            <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/assigment1">Browser API - Event Handling, Local Storage, Element manipulation</td><td>5 :heavy_check_mark:</td>
         </tr>
         <tr>
             <td>Demo : <a href="">HTTP GET & POST using Form Action and Fetch API</td><td>5 :heavy_check_mark:</td>
