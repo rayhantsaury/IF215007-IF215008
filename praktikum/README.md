@@ -38,7 +38,7 @@
             <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/blob/main/praktikum/MobaXterm%20installation%20&%20SSH%20connection/README.md">MobaXterm installation & SSH connection</td><td>2 :heavy_check_mark: </td>
         </tr>
         <tr>
-            <td>Demo : <a href="">NodeJS & NPM installation, operation & hello world</td><td>4 </td>
+            <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/NodeJS%20%26%20NPM%20installation%2C%20operation%20%26%20hello%20world">NodeJS & NPM installation, operation & hello world</td><td>4  :heavy_check_mark: </td>
         </tr>
         <tr>
             <td>Demo : <a href="">Linux server operation</td><td>5 </td>
