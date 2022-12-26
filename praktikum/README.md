@@ -32,7 +32,7 @@
             <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/PostgreSQL">PostgreSQL / MySQL installation</td><td>2 :heavy_check_mark:</td>
         </tr>        
         <tr>
-            <td>Demo : <a href="">DBeaver installation & DB connection</td><td>2 </td>
+            <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/DBeaver%20installation%20%26%20DB%20connection">DBeaver installation & DB connection</td><td>2 :heavy_check_mark: </td>
         </tr>
         <tr>
             <td>Demo : <a href="">MobaXterm installation & SSH connection</td><td>2 </td>
