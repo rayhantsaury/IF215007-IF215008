@@ -63,7 +63,7 @@
             <td>Demo : <a href="">Javascript Data Transformation</td><td>4 </td>
         </tr>
         <tr>
-            <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/Browser%20API">Browser API - Event Handling, Local Storage, Element manipulation</td><td>5 :heavy_check_mark:</td>
+            <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/Browser%20API">Browser API - Event Handling, Local Storage, Element manipulation</td><td>5 :heavy_check_mark: </td>
         </tr>
         <tr>
             <td>Demo : <a href="">HTTP GET & POST using Form Action and Fetch API</td><td>5 </td>
