@@ -35,7 +35,7 @@
             <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/tree/main/praktikum/DBeaver%20installation%20%26%20DB%20connection">DBeaver installation & DB connection</td><td>2 :heavy_check_mark: </td>
         </tr>
         <tr>
-            <td>Demo : <a href="">MobaXterm installation & SSH connection</td><td>2 </td>
+            <td>Demo : <a href="https://github.com/rayhanyeager/IF215007-IF215008/blob/main/praktikum/MobaXterm%20installation%20&%20SSH%20connection/README.md">MobaXterm installation & SSH connection</td><td>2 :heavy_check_mark: </td>
         </tr>
         <tr>
             <td>Demo : <a href="">NodeJS & NPM installation, operation & hello world</td><td>4 </td>
