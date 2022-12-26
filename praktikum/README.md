@@ -72,7 +72,7 @@
             <td>Demo : <a href="">PHP DB - Dynamic Web Page</td><td>5 </td>
         </tr>
         <tr>
-            <td>Demo : <a href="">PHP DB - Web Service</td><td>5 </td>
+            <td>Demo : <a href="https://github.com/rayhanyeager/IF214002/tree/main/Pertemuan14">PHP DB - Web Service</td><td>5 :heavy_check_mark: </td>
         </tr>
         <tr>
             <td>Demo : OOP-based PHP Project using Composer</td><td>4</td>
