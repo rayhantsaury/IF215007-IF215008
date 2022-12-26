@@ -50,7 +50,7 @@
             <td>Demo : <a href="">Cpanel operation</td><td>4</td>
         </tr>
         <tr>
-            <td>Demo : <a href="">Domain registration</td><td>1</td>
+            <td>Demo : <a href="https://github.com/nentinur/data-transaksi">Domain registration</td><td>1 :heavy_check_mark: </td>
         </tr>
         <tr>
             <td rowspan=9>CLO-0212</td>
