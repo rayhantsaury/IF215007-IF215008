@@ -1,18 +1,15 @@
-# AYO MENABUNG
+# Website Official Futsal
 
 ## Permasalahan
-- kurangnya minat menabung para mahasiswa karena mereka lebih suka menggunakan uangnya untuk hal-hal yang mereka sukai, dari pada ditabungkan.
+- Saya menjadi salah satu pengurus di akademi futsal dan kebetulan belum mempunyai website
 
 ## Solusi Permasalahan
-- Membuat aplikasi yang bisa membuat para mahasiswa tertarik untuk menabung dan juga mempermudah mereka untuk menabung.
+- Membuat aplikasi fanpage berbasis website .
 
 # Use Case
-- mahasiswa dapat melakukan pendaftaran terlebih dahulu
-- mahasiswa mengkakses aplikasi dengan cara login terlebih dahulu
-- mahasiswa dapat mulai menabung 
-- mahasiswa bisa melihat catatan tabungan mereka di aplikasi ini
-- Admin mengupdate data keuangan siswa
-
+- user yg ingin mendaftar dan bergabung dengan akademi dapat melakukan registrasi di website
+- user bisa membaca berita seputar tim futsal 
+- user bisa membeli dan melihat produk-produk yang dijual club
 
 ## Struktur Data
 
